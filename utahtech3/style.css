@@ -11,13 +11,12 @@ header {
     font-family: Georgia;
 }
 
-header h1 {
+h1 {
     line-height: 140%;
-    padding: 0.5rem;
     background-image: url("utahtechimages/utahtechlogo.svg");
     background-repeat: no-repeat;
     background-position: right;
-    padding: 1em;
+    padding-left: 1em;
     background-origin: content-box;
     margin-bottom: 0;
 
