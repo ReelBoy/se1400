@@ -1,0 +1,91 @@
+body {
+    background-image: linear-gradient(#eeeeee, #ffffff);
+    color: #666666;
+    font-family: Verdana;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #003058;
+    color: #FFFFFF;
+    font-family: Georgia;
+}
+
+header h1 {
+    line-height: 140%;
+    padding: 0.5rem;
+    background-image: url("utahtechimages/utahtechlogo.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 1em;
+    background-origin: content-box;
+    margin-bottom: 0;
+
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav {
+    font-weight: bold;
+    background-color: #f3f3f3;
+    padding: 0.5rem, 0.5rem, 0.5rem, 2rem;
+}
+
+h2 {
+    color: #424242;
+    font-family: Georgia;
+}
+
+dt {
+    color: #003058;
+    font-weight: bold;
+}
+
+.ut {
+    color: #BA1c21;
+    font-weight: bold;
+}
+
+footer {
+    font-size: 0.70rem;
+    font-style: italic;
+    text-align: center;
+    padding: 1rem;
+}
+
+#wrapper {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ffffff;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 0px 3px 3px rgba(6, 66, 66, 0.3);
+}
+
+h3 {
+    color: #003058;
+}
+
+#homehero {
+    height: 300px;
+    background-image: url("utahtechimages/homehero.jpg");
+    background-position: center;
+    background-size: cover
+}
+
+#studenthero {
+    height: 300px;
+    background-image: url("utahtechimages/studenthero.jpg");
+    background-position: center;
+    background-size: cover
+}
+
+#facultyhero {
+    height: 300px;
+    background-image: url("utahtechimages/facultyhero.jpg");
+    background-position: center;
+    background-size: cover
+}
