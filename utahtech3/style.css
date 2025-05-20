@@ -16,9 +16,12 @@ h1 {
     background-image: url("utahtechimages/utahtechlogo.svg");
     background-repeat: no-repeat;
     background-position: right;
-    padding-left: 1em;
+    padding-left: 1rem;
     background-origin: content-box;
     margin-bottom: 0;
+    padding-top: .25em;
+    padding-bottom:.25em;
+
 
 }
 
