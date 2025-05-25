@@ -7,7 +7,7 @@ body {
     color: #666666;
     font-family: Verdana;
     background-attachment: fixed;
-    margin: 0;
+    margin: 0px;
 }
 
 header {
@@ -52,7 +52,7 @@ nav {
 }
 
 nav ul {
-    margin: 0;
+    margin: 0px;
     padding: 0px;
     display: flex;
     flex-flow: row, nowrap;
@@ -72,7 +72,7 @@ nav a:hover {
 nav a {
 
     color: #FFFFFF;
-    padding: 1rem 1rem;
+    padding: 1rem 0rem;
     display: block;
     text-align: center;
 }
