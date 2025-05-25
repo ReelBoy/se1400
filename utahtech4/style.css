@@ -47,21 +47,21 @@ nav {
     background-color: #424242;
     position: sticky;
     top: 0;
-
     grid-column: 2/8;
     grid-row: 2/3;
 }
 
 nav ul {
-    margin: 0px;
+    margin: 0;
     padding: 0px;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row, nowrap;
     list-style-type: none;
 
 }
 
 nav ul li {
+
     width: 100%;
 }
 
@@ -70,8 +70,9 @@ nav a:hover {
 }
 
 nav a {
+
     color: #FFFFFF;
-    padding: 1rem 0rem;
+    padding: 1rem 1rem;
     display: block;
     text-align: center;
 }
@@ -103,7 +104,7 @@ footer {
 #wrapper {
     display: grid;
     grid-auto-rows: minmax(0px, auto);
-    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0px, 175px)) minmax(0px, 1fr);
 }
 
 h3 {
