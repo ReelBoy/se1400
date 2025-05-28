@@ -19,7 +19,7 @@ nav {
 }
 
 #indexhero {
-    grid-column: 1/8;
+    grid-column: 1/9;
     height: 186px;
     background-color: rgba(48, 36, 115, 0.489);
 }
