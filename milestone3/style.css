@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+}
+
+nav {
+    background-color: rgba(248, 80, 217, 0.579);
+    height: 169px;
+    grid-column: 3/7;
+
+}
+
+#indexhero {
+    grid-column: 1/8;
+    height: 186px;
+    background-color: rgba(48, 36, 115, 0.489);
+}
+
+main {
+    grid-column: 3/7;
+    height: 990px;
+    background-color: rgba(52, 207, 52, 0.501);
+}
+
+footer {
+    grid-column: 3/7;
+    height: 158px;
+    background-color: rgba(228, 248, 80, 0.54);
+}
