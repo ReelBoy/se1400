@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #012B13;
+    color:#FEEAD8;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+}
+
+nav {
+    position:sticky;
+    grid-column: 3/7;
+    background-image: url("images/Reel\ Boy\ Logo.png");
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color:#FEEAD8;
+    font-weight: bold;
+    margin-right:10px;
+    margin-left:0px;
+
+}
+
+#indexhero {
+    grid-column: 1/9;
+    height: 186px;
+    background-image: url("images/Header.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+main {
+    grid-column: 3/7;
+
+    
+}
+
+footer {
+    grid-column: 3/7;
+    height: 158px;
+    
+}
+
+#ghost-stories {
+
+    max-width: 250px;
+    float: left;
+    padding-right: 20px;
+}
+
+#about-pic {
+    margin: 20px 0px 0px 0px;
+    max-width: 250px;
+    float: left;
+    padding-right: 20px;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 3px;
+    background-color: #FEEAD8;
+    border-radius: 1px;
+}
+.stream-link{
+    height:35px;
+    margin:10px;
+    color:#FEEAD8
+}
+footer{
+    text-align: center;
+}
+.social-link{
+    padding:5px;
+    height:40px;
+}
