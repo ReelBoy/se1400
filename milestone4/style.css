@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
 @font-face {
     font-family: Roboto-Regular;
     src: url("fonts/Roboto-Regular.ttf");
@@ -13,7 +14,7 @@
 
 body {
     background-color: #012B13;
-    color:#FEEAD8;
+    color: #FEEAD8;
 }
 
 #wrapper {
@@ -22,7 +23,7 @@ body {
 }
 
 nav {
-    position:sticky;
+    position: sticky;
     grid-column: 3/7;
     background-image: url("images/Reel\ Boy\ Logo.png");
     background-position: right;
@@ -38,18 +39,18 @@ nav li {
 
 nav li a {
     text-decoration: none;
-    color:#FEEAD8;
+    color: #FEEAD8;
     font-weight: bold;
-    margin-right:10px;
-    margin-left:0px;
+    margin-right: 10px;
+    margin-left: 0px;
 
 }
 
 #indexhero {
     grid-column: 1/9;
-    height: 186px;
+    height: 200px;
     background-image: url("images/Header.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 
 }
@@ -57,13 +58,13 @@ nav li a {
 main {
     grid-column: 3/7;
 
-    
+
 }
 
 footer {
     grid-column: 3/7;
     height: 158px;
-    
+
 }
 
 #ghost-stories {
@@ -79,29 +80,35 @@ footer {
     float: left;
     padding-right: 20px;
 }
-p{
-    font-family:Roboto-Regular;
+
+p {
+    font-family: Roboto-Regular;
 }
-h3{
-    font-family:Roboto-Bold;
+
+h3 {
+    font-family: Roboto-Bold;
 }
-hr{
+
+hr {
     margin-top: 20px;
     margin-bottom: 20px;
     height: 3px;
     background-color: #FEEAD8;
     border-radius: 1px;
 }
-.stream-link{
-    height:35px;
-    margin:10px;
-    color:#FEEAD8
+
+.stream-link {
+    height: 35px;
+    margin: 10px;
+    color: #FEEAD8
 }
-footer{
+
+footer {
     font-size: 1em;
     text-align: center;
 }
-.social-link{
-    padding:5px;
-    height:40px;
+
+.social-link {
+    padding: 5px;
+    height: 40px;
 }
