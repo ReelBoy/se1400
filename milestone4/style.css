@@ -1,6 +1,15 @@
 * {
     box-sizing: border-box;
 }
+@font-face {
+    font-family: Roboto-Regular;
+    src: url("fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url("fonts/Roboto-Bold.ttf");
+}
 
 body {
     background-color: #012B13;
@@ -71,10 +80,10 @@ footer {
     padding-right: 20px;
 }
 p{
-    font-family: 'Courier New', Courier, monospace;
+    font-family:Roboto-Regular;
 }
 h3{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Roboto-Bold;
 }
 hr{
     margin-top: 20px;
@@ -89,6 +98,7 @@ hr{
     color:#FEEAD8
 }
 footer{
+    font-size: 1em;
     text-align: center;
 }
 .social-link{
