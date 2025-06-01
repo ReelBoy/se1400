@@ -38,6 +38,7 @@ nav li {
 }
 
 nav li a {
+    font-size:1em;
     text-decoration: none;
     color: #FEEAD8;
     font-weight: bold;
