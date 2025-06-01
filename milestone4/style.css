@@ -112,3 +112,7 @@ footer {
     padding: 5px;
     height: 40px;
 }
+
+#current {
+    text-decoration: underline;
+}
