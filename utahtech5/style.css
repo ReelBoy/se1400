@@ -112,7 +112,7 @@ h3 {
 }
 
 #homehero {
-    height: 300px;
+
     background-image: url("utahtechimages/homehero.jpg");
     background-position: center;
     background-size: cover;
@@ -121,7 +121,7 @@ h3 {
 }
 
 #studenthero {
-    height: 300px;
+
     background-image: url("utahtechimages/studenthero.jpg");
     background-position: center;
     background-size: cover;
@@ -130,7 +130,7 @@ h3 {
 }
 
 #facultyhero {
-    height: 300px;
+
     background-image: url("utahtechimages/facultyhero.jpg");
     background-position: center;
     background-size: cover;
