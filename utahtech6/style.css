@@ -145,7 +145,7 @@ label {
 }
 
 #homehero {
-
+    height: 300px;
     background-image: url("utahtechimages/homehero.jpg");
     background-position: center;
     background-size: cover;
@@ -154,7 +154,7 @@ label {
 }
 
 #studenthero {
-
+    height: 300px;
     background-image: url("utahtechimages/studenthero.jpg");
     background-position: center;
     background-size: cover;
@@ -163,7 +163,7 @@ label {
 }
 
 #facultyhero {
-
+    height: 300px;
     background-image: url("utahtechimages/facultyhero.jpg");
     background-position: center;
     background-size: cover;
@@ -172,7 +172,7 @@ label {
 }
 
 #alumnihero {
-
+    height: 300px;
     background-image: url("utahtechimages/alumnihero.jpg");
     background-position: center;
     background-size: cover;
@@ -222,25 +222,25 @@ main img {
     }
 
     #homehero {
-
+        height: auto;
         grid-column: 5/8;
         grid-row: 2/3;
     }
 
     #studenthero {
-
+        height: auto;
         grid-column: 5/8;
         grid-row: 2/3;
     }
 
     #facultyhero {
-
+        height: auto;
         grid-column: 5/8;
         grid-row: 2/3;
     }
 
     #alumnihero {
-
+        height: auto;
         grid-column: 5/8;
         grid-row: 2/3;
     }
