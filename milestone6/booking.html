@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Reel Boy - Booking</title>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a id="current" href="booking.html">Booking</a></li>
+                <li><a href="music.html">Music</a></li>
+            </ul>
+        </nav>
+        <div id="bookinghero" class="hero"></div>
+        <main>
+
+            <form method="post" onsubmit="return validateForm();" action="booking.html">
+                <h3>Booking</h3>
+                <label for="my_name">*Name</label>
+                <input type="textbox" name="my_name" id="my_name">
+                <br>
+                <label for="email">*Email</label>
+                <input type="email" name="email" id="email">
+                <br>
+                <label for="phone">*Phone</label>
+                <input type="tel" name="phone" id="phone">
+                <br>
+                <label for="">*Date</label>
+                <input type="date" name="" id="date">
+                <br>
+                <label for="address">*Address</label>
+                <textarea type="address" name="address" id="address" placeholder="Where is the gig?"></textarea>
+                <input type="submit" value="Contact">
+            </form>
+        </main>
+
+        <footer>
+            <a href="https://www.facebook.com/jayson.brock.83"><img src="images/facebook icon.png"
+                    class="social-link"></a>
+            <a href="https://www.instagram.com/reelboymusic/"><img src="images/instagram icon.png"
+                    class="social-link"></a>
+            <a href="https://www.threads.com/@reelboymusic"><img src="images/x icon.png" class="social-link"></a>
+            <a href="https://open.spotify.com/artist/4fjJkQiEocdEHPt2orCFvU?si=wmAuliPMSO6RefB4bPrnzg"><img
+                    src="images/Spotify Icon.png" class="social-link"></a>
+            <br>
+            Copyright &copy; <br>
+            2025 Plaid Skeleton Records
+        </footer>
+    </div>
+    <script>
+        function validateForm() {
+            if (document.forms[0].my_name.value == "") {
+                alert("Please enter your name");
+                return false;
+            }
+            else if (document.forms[0].email.value == "") {
+                alert("Please enter your email");
+                return false;
+            }
+            else if (document.forms[0].phone.value == "") {
+                alert("Please enter your phone number");
+                return false;
+            }
+            else if (document.forms[0].date.value == "") {
+                alert("Please enter the date of the gig");
+                return false;
+            }
+            else if (document.forms[0].address.value == "") {
+                alert("Please enter the address for the venue");
+                return false;
+            }
+            else {
+                return true;
+            }
+
+        }
+    </script>
+</body>
+
+</html>
